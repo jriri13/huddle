@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(257,40%,49%);
+    background-image: url("images/bg-desktop.svg");
+    font-family: 'Open Sans';
+}
+
+.logo {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 15rem;
+}
+.container{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container img{
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container .text{
+    margin-right: 70px;
+    margin-left: 30px;
+} 
+
+.container .text h2{
+    font-family: 'Poppins';
+    color: #fff;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.container .text p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.container .text .btn{
+    color: hsl(300, 69%, 71%);
+    background-color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px 50px;
+    margin-top: 50px;
+    box-shadow: 3px 3px 20px black;
+    margin-bottom: 10rem;
+}
+
+.container .text .btn:hover{
+    cursor: pointer;
+    background-color:hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+@media screen and (max-width: 375px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+    } 
+}
